@@ -2,6 +2,10 @@
 
 Fuzzing results for various interpreters.
 
+## Update
+
+I gave a talk about this project at WarCon 2017. [Slides are available](https://dyjak.me/speaking/). References section might come in handy.
+
 # methodology
 
 My current approach is to run [honggfuzz](https://github.com/google/honggfuzz) with [radamsa](https://github.com/aoh/radamsa) on an existing template corpus. I usually go for 10M+ iterations (not much but servers cost money, duh).
